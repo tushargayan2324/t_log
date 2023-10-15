@@ -1,4 +1,45 @@
-baseURL: https://example.org/
+baseURL: https://tushargayan2324.github.io/t_log
 languageCode: en-us
-title: My New Hugo Site
+title: t_log
+enableEmoji: true
 theme: "PaperMod"
+
+mainSections:
+  - blog
+  - archives
+
+menu:
+  main:
+    - name: Home
+      pageRef: /
+      weight: 10
+    - name: Blogs
+      pageRef: /blog
+      weight: 20
+    - name: Archives
+      url: /archives
+      weight: 30
+
+params:
+  profileMode:
+    enabled: true
+    title: "I'm Tushar Gayan" # optional default will be site title
+    subtitle: "Test Website. Need more patience."
+    author: "Tushar"
+    imageUrl: "/img/avatar_1.png" #"/img/avatar_1.png" # optional
+    imageTitle: "Avatar Image" # optional
+    imageWidth: 400 # custom size
+    imageHeight: 400 # custom size
+    buttons:
+      - name: Blogs
+        url: "/blog"
+
+  socialIcons:
+    - name: "Linkedin"
+      url: "https://slashdot-iiserk.github.io"
+    - name: "YouTube"
+      url: "https://www.youtube.com/@piyushkrsingh"
+    - name: "Github"
+      url: "https://github.com/iamPiyushKrSingh"
+    - name: "Instagram"
+      url: "<>"
