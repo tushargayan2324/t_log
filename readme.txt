@@ -1,1 +1,1 @@
-Attempt at creating personal webpage 1
+Hugo webpage with PaperMod theme
