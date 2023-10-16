@@ -29,8 +29,8 @@ params:
     author: "Tushar"
     imageUrl: "avatar_1.png" #![targets](/images/avatar_1.png) #"static/img/avatar_1.png" #"/img/avatar_1.png" # optional
     imageTitle: "Avatar Image" # optional
-    imageWidth: 400 # custom size
-    imageHeight: 400 # custom size
+#    imageWidth: 400 # custom size
+#    imageHeight: 400 # custom size
     buttons:
       - name: Blogs
         url: "/blog"
